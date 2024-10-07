@@ -5608,7 +5608,7 @@ D:AddToggle({
     Name = "Auto Random Fruits",
     Default = false,
     Flag = "Auto Random Fruits",
-    Save = true,
+    Save = False,
     Callback = function(Value)
         _G.Random_Auto = Value
     end    
@@ -5666,7 +5666,7 @@ D:AddToggle({
     Name = "Auto Store Fruits",
     Default = true,
     Flag = "Auto Store Fruits",
-    Save = true,
+    Save = False,
     Callback = function(Value)
         _G.AutoStoreFruit = Value
     end    
